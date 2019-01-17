@@ -107,26 +107,39 @@ section {
 }
 
 
-
-
-
-html {
-  font-size: 1rem;
+.contact {
+	background-color: #CFBBBA;
 }
 
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 0.5rem;
-  }
+form {
+	background-color: #F1F3F3;
+	padding: 1em;
+	border-radius: .5em;
+	max-width: 60%;
+	margin: 0 auto;
 }
 
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1rem;
-  }
+.contact h3 {
+	text-align: center;
 }
 
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.5rem;
-  }
+textarea {
+	width: 100%;
+}
+
+.form-group {
+	margin: 0 auto;
+	max-width: 80%;
+	padding: 1em;
+}
+
+.button {
+	background-color: #CFBBBA;
+	padding: 1em;
+	border-radius: 1.5em;
+}
+
+
+
+
+
